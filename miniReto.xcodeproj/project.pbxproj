@@ -14,6 +14,7 @@
 		0C0781A21CAE3A4000130CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0781A01CAE3A4000130CFD /* LaunchScreen.storyboard */; };
 		0C0781AD1CAE3A4000130CFD /* miniRetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781AC1CAE3A4000130CFD /* miniRetoTests.swift */; };
 		0C0781B81CAE3A4100130CFD /* miniRetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */; };
+		0C0781CC1CAE3D1000130CFD /* miniReto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C0781CB1CAE3D1000130CFD /* miniReto.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,8 @@
 		0C0781B31CAE3A4100130CFD /* miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniRetoUITests.swift; sourceTree = "<group>"; };
 		0C0781B91CAE3A4100130CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0781C61CAE3A7B00130CFD /* miniReto.swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.swift.playground; sourceTree = "<group>"; };
+		0C0781C61CAE3A7B00130CFD /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
+		0C0781CB1CAE3D1000130CFD /* miniReto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniReto.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		0C07818B1CAE3A4000130CFD = {
 			isa = PBXGroup;
 			children = (
+				0C0781CB1CAE3D1000130CFD /* miniReto.txt */,
 				0C0781961CAE3A4000130CFD /* miniReto */,
 				0C0781AB1CAE3A4000130CFD /* miniRetoTests */,
 				0C0781B61CAE3A4100130CFD /* miniRetoUITests */,
@@ -98,7 +101,7 @@
 		0C0781961CAE3A4000130CFD /* miniReto */ = {
 			isa = PBXGroup;
 			children = (
-				0C0781C61CAE3A7B00130CFD /* miniReto.swift.playground */,
+				0C0781C61CAE3A7B00130CFD /* miniReto.playground */,
 				0C0781971CAE3A4000130CFD /* AppDelegate.swift */,
 				0C0781991CAE3A4000130CFD /* ViewController.swift */,
 				0C07819B1CAE3A4000130CFD /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0781A21CAE3A4000130CFD /* LaunchScreen.storyboard in Resources */,
+				0C0781CC1CAE3D1000130CFD /* miniReto.txt in Resources */,
 				0C07819F1CAE3A4000130CFD /* Assets.xcassets in Resources */,
 				0C07819D1CAE3A4000130CFD /* Main.storyboard in Resources */,
 			);
@@ -489,6 +493,7 @@
 				0C0781BE1CAE3A4100130CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0781BF1CAE3A4100130CFD /* Build configuration list for PBXNativeTarget "miniRetoTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				0C0781C11CAE3A4100130CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0781C21CAE3A4100130CFD /* Build configuration list for PBXNativeTarget "miniRetoUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				0C0781C41CAE3A4100130CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
