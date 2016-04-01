@@ -47,7 +47,7 @@
 		0C0781B31CAE3A4100130CFD /* miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniRetoUITests.swift; sourceTree = "<group>"; };
 		0C0781B91CAE3A4100130CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0781C61CAE3A7B00130CFD /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
+		0C0781C61CAE3A7B00130CFD /* miniReto.swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.swift.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		0C0781961CAE3A4000130CFD /* miniReto */ = {
 			isa = PBXGroup;
 			children = (
-				0C0781C61CAE3A7B00130CFD /* miniReto.playground */,
+				0C0781C61CAE3A7B00130CFD /* miniReto.swift.playground */,
 				0C0781971CAE3A4000130CFD /* AppDelegate.swift */,
 				0C0781991CAE3A4000130CFD /* ViewController.swift */,
 				0C07819B1CAE3A4000130CFD /* Main.storyboard */,
