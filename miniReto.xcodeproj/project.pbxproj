@@ -6,17 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0C0781981CAE3A4000130CFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781971CAE3A4000130CFD /* AppDelegate.swift */; };
-		0C07819A1CAE3A4000130CFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781991CAE3A4000130CFD /* ViewController.swift */; };
-		0C07819D1CAE3A4000130CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C07819B1CAE3A4000130CFD /* Main.storyboard */; };
-		0C07819F1CAE3A4000130CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C07819E1CAE3A4000130CFD /* Assets.xcassets */; };
-		0C0781A21CAE3A4000130CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0781A01CAE3A4000130CFD /* LaunchScreen.storyboard */; };
-		0C0781AD1CAE3A4000130CFD /* miniRetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781AC1CAE3A4000130CFD /* miniRetoTests.swift */; };
-		0C0781B81CAE3A4100130CFD /* miniRetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */; };
-		0C0781CC1CAE3D1000130CFD /* miniReto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C0781CB1CAE3D1000130CFD /* miniReto.txt */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		0C0781A91CAE3A4000130CFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,21 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C0781941CAE3A4000130CFD /* miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniReto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0781971CAE3A4000130CFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C0781991CAE3A4000130CFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C07819C1CAE3A4000130CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C07819E1CAE3A4000130CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C0781A11CAE3A4000130CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C0781A31CAE3A4000130CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0781A81CAE3A4000130CFD /* miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniRetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0781AC1CAE3A4000130CFD /* miniRetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniRetoTests.swift; sourceTree = "<group>"; };
-		0C0781AE1CAE3A4100130CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0781B31CAE3A4100130CFD /* miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniRetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniRetoUITests.swift; sourceTree = "<group>"; };
-		0C0781B91CAE3A4100130CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C0781C61CAE3A7B00130CFD /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
-		0C0781CB1CAE3D1000130CFD /* miniReto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = miniReto.txt; sourceTree = "<group>"; };
+		0C0781941CAE3A4000130CFD /* miniReto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = miniReto.app; path = "/Users/MacOSX/Google Drive/COURSERA/Desarrollo de Aplicaciones iOS - Tec. de Monterrey/1. Swift. Programar para iOS/Semana 2/miniReto/build/Debug-iphoneos/miniReto.app"; sourceTree = "<absolute>"; };
+		0C0781A81CAE3A4000130CFD /* miniRetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = miniRetoTests.xctest; path = "/Users/MacOSX/Google Drive/COURSERA/Desarrollo de Aplicaciones iOS - Tec. de Monterrey/1. Swift. Programar para iOS/Semana 2/miniReto/build/Debug-iphoneos/miniRetoTests.xctest"; sourceTree = "<absolute>"; };
+		0C0781B31CAE3A4100130CFD /* miniRetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = miniRetoUITests.xctest; path = "/Users/MacOSX/Google Drive/COURSERA/Desarrollo de Aplicaciones iOS - Tec. de Monterrey/1. Swift. Programar para iOS/Semana 2/miniReto/build/Debug-iphoneos/miniRetoUITests.xctest"; sourceTree = "<absolute>"; };
+		0C0781C61CAE3A7B00130CFD /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = miniReto.playground; path = miniReto/miniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,54 +58,8 @@
 		0C07818B1CAE3A4000130CFD = {
 			isa = PBXGroup;
 			children = (
-				0C0781CB1CAE3D1000130CFD /* miniReto.txt */,
-				0C0781961CAE3A4000130CFD /* miniReto */,
-				0C0781AB1CAE3A4000130CFD /* miniRetoTests */,
-				0C0781B61CAE3A4100130CFD /* miniRetoUITests */,
-				0C0781951CAE3A4000130CFD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		0C0781951CAE3A4000130CFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0C0781941CAE3A4000130CFD /* miniReto.app */,
-				0C0781A81CAE3A4000130CFD /* miniRetoTests.xctest */,
-				0C0781B31CAE3A4100130CFD /* miniRetoUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0C0781961CAE3A4000130CFD /* miniReto */ = {
-			isa = PBXGroup;
-			children = (
 				0C0781C61CAE3A7B00130CFD /* miniReto.playground */,
-				0C0781971CAE3A4000130CFD /* AppDelegate.swift */,
-				0C0781991CAE3A4000130CFD /* ViewController.swift */,
-				0C07819B1CAE3A4000130CFD /* Main.storyboard */,
-				0C07819E1CAE3A4000130CFD /* Assets.xcassets */,
-				0C0781A01CAE3A4000130CFD /* LaunchScreen.storyboard */,
-				0C0781A31CAE3A4000130CFD /* Info.plist */,
 			);
-			path = miniReto;
-			sourceTree = "<group>";
-		};
-		0C0781AB1CAE3A4000130CFD /* miniRetoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C0781AC1CAE3A4000130CFD /* miniRetoTests.swift */,
-				0C0781AE1CAE3A4100130CFD /* Info.plist */,
-			);
-			path = miniRetoTests;
-			sourceTree = "<group>";
-		};
-		0C0781B61CAE3A4100130CFD /* miniRetoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C0781B71CAE3A4100130CFD /* miniRetoUITests.swift */,
-				0C0781B91CAE3A4100130CFD /* Info.plist */,
-			);
-			path = miniRetoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +153,7 @@
 				Base,
 			);
 			mainGroup = 0C07818B1CAE3A4000130CFD;
-			productRefGroup = 0C0781951CAE3A4000130CFD /* Products */;
+			productRefGroup = 0C07818B1CAE3A4000130CFD;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -237,10 +169,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0781A21CAE3A4000130CFD /* LaunchScreen.storyboard in Resources */,
-				0C0781CC1CAE3D1000130CFD /* miniReto.txt in Resources */,
-				0C07819F1CAE3A4000130CFD /* Assets.xcassets in Resources */,
-				0C07819D1CAE3A4000130CFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C07819A1CAE3A4000130CFD /* ViewController.swift in Sources */,
-				0C0781981CAE3A4000130CFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0781AD1CAE3A4000130CFD /* miniRetoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0781B81CAE3A4100130CFD /* miniRetoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,25 +224,6 @@
 			targetProxy = 0C0781B41CAE3A4100130CFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0C07819B1CAE3A4000130CFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C07819C1CAE3A4000130CFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C0781A01CAE3A4000130CFD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C0781A11CAE3A4000130CFD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C0781BA1CAE3A4100130CFD /* Debug */ = {
